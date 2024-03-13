@@ -1,1 +1,32 @@
-
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Poppins:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300&family=Rubik:wght@300;400;700&display=swap');
+*{
+    font-family: 'space grosek';
+    margin : 0; 
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+:root{
+    --bg-color:#1b1b1b;
+    --main-color:#fafafa;
+    --text-color:#333f48;
+    --text:#fff;
+    --font-h1: 2.625rem;
+    --font-h3: 1.625rem;
+    --font-h4:1.125rem;
+    --font-h6:0.625rem;
+}
+body{
+    background: #f9fafa;
+    ;
+    padding-top: 80px;
+}
+section{
+    padding: 40px 80px;
+}
