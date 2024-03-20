@@ -104,3 +104,39 @@ header{
     font-size: 1rem;
     font-weight:500;
 }
+
+
+.footer{
+    padding-bottom: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+    ;
+}
+footer .col{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.coppyright{
+    text-align: center;
+    margin-top: 20px;
+    font-size:1.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    padding: 20px;
+    border-top: 1px solid #cce7d0;
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+footer p{
+    font-size: 18px;
+    margin: 0 0 8px 0;
+    color: var(--text-color);
+}
