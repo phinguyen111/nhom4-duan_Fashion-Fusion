@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+    <header>
+            <div class="logo"><img src="https://canifa.com/assets/images/logo.svg" alt=""></div>
+             <!-- Menu icons -->
+            <i class='bx bx-menu' id="menu-icon"></i>    
+            <ul class="nav-bar">
+                <li><a href="">TRANG CHỦ </a></li>
+                <li><a href="">SẢN PHẨM</a></li>
+                <li><a href="">LIÊN HỆ</a></li>
+                <li><a href="">GIỚI THIỆU</a></li>
+            </ul>
+            <div class="cart-item">
+                <i class='bx bx-search-alt' id="search-icon" ></i>
+                <i class='bx bx-cart-alt' id="cart-icon" ></i>
+                <span class="number-cart">10</span>     
+            </div>
+            <div class="header-icon " onclick="toggleLoginForm()"  >
+                <i class='bx bxs-user-circle' id="user-form" ></i>
+                  <!-- OPEN LOGIN FORM -->
+                <div class="login-form" id="loginForm">
+                  <ul id="ul-from">
+                    <li><a href=""><i class='bx bx-user-circle'></i><span>Thông tin tài khoản</span></a></li>
+                    <li><a href=""><i class='bx bx-spreadsheet'></i><span>Đơn hàng của tôi</span></a></li>
+                    <li><a href=""><i class='bx bx-lock-open'></i><span>Thay đổi mật khẩu</span></a></li>
+                    <li><a href=""><i class='bx bx-exit' ></i><span>Thoát</span></a></li>
+                  </ul> 
+                </div>
+                
+            </div>
+            <!-- OPEN FORM SEARCH -->
+            <div class="search-form">
+                <input type="search" placeholder="Tìm kiếm...">
+            </div>
 
+          
+    </header>
+</body>
