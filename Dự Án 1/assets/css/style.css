@@ -80,3 +80,27 @@ header{
 .nav-bar a:hover{
     color: burlywood;
 }
+.search-form{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    width:100%;
+    box-shadow: 1px 2px 2px  black;
+    cursor: pointer;
+}
+.search-form input{
+    padding:20px;
+    border:none;
+    outline:none;
+    width:-100%;
+    font-size: 1rem;
+    color: var(--bg-color);
+    width: 100%;
+}
+
+.search-box input ::placeholder{
+    font-size: 1rem;
+    font-weight:500;
+}
